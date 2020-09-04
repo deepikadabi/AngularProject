@@ -18,6 +18,7 @@ import { AnswerComponent } from './answer/answer.component';
 import { LogoutIndexComponent } from './logout-index/logout-index.component';
 import { LogoutComponent } from './logout/logout.component';
 import { ForgotComponent } from './forgot/forgot.component';
+import { ErrorComponent } from './error/error.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ForgotComponent } from './forgot/forgot.component';
     AnswerComponent,
     LogoutIndexComponent,
     LogoutComponent,
-    ForgotComponent
+    ForgotComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

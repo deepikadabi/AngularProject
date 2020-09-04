@@ -7,7 +7,7 @@ Promise.promisifyAll(require("mysql/lib/Pool").prototype);
 const DB_CONFIG = {
   host: "localhost",
   user: "root",
-  password: "abcpqrxyz",
+  password: "",
   database: "stackov"
 };
 
